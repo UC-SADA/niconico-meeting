@@ -1,0 +1,9 @@
+{
+  "name": "みっつ",
+  "room": "テストルーム",
+  "quickstart": 1, //1にすると　name room の入力を省略できます。
+  "chart": "bar",
+	"chartSize": 0.25,
+  "testmode": 1 // デフォルト0 1にするとlocalhostで起動します。
+}
+
