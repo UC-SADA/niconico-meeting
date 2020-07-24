@@ -29,7 +29,9 @@
       "category": "Utility"
     },
     "mac": {
-      "target": [ "dmg" ]
+      "target": [
+        "dmg"
+      ]
     }
   }
 }
