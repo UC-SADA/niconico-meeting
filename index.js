@@ -8,6 +8,7 @@ let inputWindow;
 let loginWindow;
 let isLoginWindow = false;
 
+
 // ログイン要求時に発火するイベント
 
 elc_app.on("login", (event, webContents, request, authInfo, callback)=>{
