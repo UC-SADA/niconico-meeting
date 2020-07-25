@@ -1,6 +1,6 @@
 {
   "name": "niconico-meeting",
-  "version": "0.0.2",
+  "version": "0.0.14",
   "main": "index.js",
   "dependencies": {
     "config": "^3.3.1",
