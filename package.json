@@ -13,7 +13,13 @@
   },
   "scripts": {
     "start": "chcp 65001 && electron .",
-    "build": "electron-packager . niconico-meeting --platform=win32 --arch=x64 --overwrite"
+    "build:linux": "electron-builder --linux --dir",
+    "dist:linux": "electron-builder --linux",
+    "build:mac": "electron-builder --mac --dir",
+    "dist:mac": "electron-builder --mac",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "build": {
     "appId": "niconico-meeting-app",
@@ -30,9 +36,7 @@
       "category": "Utility"
     },
     "mac": {
-      "target": [
-        "dmg"
-      ]
+      "target": ["dmg"]
     }
   }
 }
